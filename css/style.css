@@ -312,10 +312,16 @@ a {
   .trending__image img {
     width: 70%;
     height: 70%;
-  }
+}
 
   .trending__content {
     padding: 32px;
   }
 }
 /* END: trending media queries */
+
+::-webkit-scrollbar { width: 5px; }
+
+::-webkit-scrollbar-track { background-color: transparent; }
+
+::-webkit-scrollbar-thumb { background-color: #1f1e31; }
